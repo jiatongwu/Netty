@@ -1,7 +1,7 @@
 # Netty in Action
 
 
-# Main component
+## Main component
 
 1. Channel
 - (인바운드) 데이터와 나가는(아웃바운드) 데이터를 위한 운송수단 개념
@@ -27,4 +27,5 @@
 - 오류 이벤트
 - 원격 피어로 연결 열기 또는 닫기
 - 소켓으로 데이터 쓰기 또는 플러시
-![Alt text](https://waylau.gitbooks.io/essential-netty-in-action/content/images/Figure%201.3%20Event%20Flow.jpg "ChannelHandler")
+
+![ChannelHandler](https://waylau.gitbooks.io/essential-netty-in-action/content/images/Figure%201.3%20Event%20Flow.jpg "ChannelHandler")
