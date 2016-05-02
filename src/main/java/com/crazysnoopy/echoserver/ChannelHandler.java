@@ -1,4 +1,4 @@
-package com.crazysnoopy.chapter01;
+package com.crazysnoopy.echoserver;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
