@@ -14,6 +14,19 @@ import java.net.InetSocketAddress;
  * Created by wonhwa on 2016-05-02.
  */
 public class EchoServer {
+
+    /*
+        서버가 수신할 포트를 바인딩하고 들어오는 연결 요청을 수락한다.
+        EchoServerHandler 인스턴스에 인바운드 메세지에 대해 알리도록 Channel을 구성한다.
+
+        부트스트랩 단계
+        1. 서버를 부트스트랩하고 바인딩하는 데 이용할 ServerBootstrap 인스턴스 생성
+        2. 새로운 연결 수락 및 데이터 읽기/쓰기와 같은 이벤트 처리를 수행할 NioEventLoopGroup 인스턴스를 생성하고 할당.
+        3. 서버가 바인딩하는 로컬 InetSocketAddress를 지정
+        4. EchoServerHandler 인스턴스를 이용해 새로운 각  Channel을 초기화 함
+        5. ServerBootstrap.bind()를 호출해 서버를 바인딩.
+     */
+
     private final int port;
 
     public EchoServer(int port) {

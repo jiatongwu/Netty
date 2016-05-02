@@ -13,6 +13,10 @@ import io.netty.util.CharsetUtil;
  */
 @ChannelHandler.Sharable
 public class EchoServerHandler extends ChannelInboundHandlerAdapter {
+
+    /*
+        비지니스 논리를 구현한다.
+     */
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf in = (ByteBuf) msg;
