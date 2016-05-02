@@ -6,6 +6,9 @@
 ### Channel
 * (인바운드) 데이터와 나가는(아웃바운드) 데이터를 위한 운송수단 개념
 * 하나 이상의 입출력 작업(예: 읽기 또는 쓰기)을 수행할 수 있는 하드웨어 장치 파일, 네트워크 소켓, 프로그램 컴포넌트와 같은 엔티티에 대한 열린 연결
+* bind(), connect(), read(), write()
+* 기본 구조는 Socket 클래스이다.
+
 
 
 ### Callback
@@ -35,6 +38,8 @@
 * 소켓으로 데이터 쓰기 또는 플러시
 
 ![ChannelHandler](https://waylau.gitbooks.io/essential-netty-in-action/content/images/Figure%201.3%20Event%20Flow.jpg "ChannelHandler")
+
+![Channel, EventLoop, EventLoopGroup](https://waylau.gitbooks.io/essential-netty-in-action/content/images/Figure%203.1.jpg "Channel, EventLoop, EventLoopGroup")
 
 > 참고 하세요: [netty 관련된 키노트][nettyadvice]
 
