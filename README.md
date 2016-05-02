@@ -35,3 +35,7 @@
 * 소켓으로 데이터 쓰기 또는 플러시
 
 ![ChannelHandler](https://waylau.gitbooks.io/essential-netty-in-action/content/images/Figure%201.3%20Event%20Flow.jpg "ChannelHandler")
+
+> 참고 하세요: [netty 관련된 키노트][nettyadvice]
+
+[nettyadvice]: <http://hatemogi.github.io/netty-startup>
